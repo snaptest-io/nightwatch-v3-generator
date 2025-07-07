@@ -1,6 +1,6 @@
-# SnapTest NightwatchJS Test Generator
+# SnapTest NightwatchJS-V3 Test Generator
 
-Generates test folders in the populate NightwatchJS framework via the [snaptest-cli](https://www.npmjs.com/package/snaptest-cli).
+Generates test folders in the populate NightwatchJS framework version 3 via the [snaptest-cli](https://www.npmjs.com/package/snaptest-cli).
 
 Master branch is published to npm and used in snaptest-cli as official NightwatchJS generator when the `-r nightwatch-v3` flag is used.
 

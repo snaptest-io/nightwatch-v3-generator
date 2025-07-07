@@ -10,7 +10,7 @@ var VERSION = require('./package.json').version;
 
 function generate() {
 
-  console.log(`nightwatch-generator@${VERSION}`);
+  console.log(`nightwatch-v3-generator@${VERSION}`);
 
   // Initial in-memory file structure
   var fileStructure = [
