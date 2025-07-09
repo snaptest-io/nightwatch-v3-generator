@@ -723,7 +723,7 @@ module.exports.bindDriver = function(browser) {
           if (result.value.domainMismatch) {
 
             browser.window.switch("delete_cookies");
-            browser.deleteAll();
+            browser.cookies.deleteAll();
 
             browser.window.getAllHandles(function(result) {
               browser.window.close();
