@@ -1,6 +1,6 @@
 {
   "name": "nightwatch-v3-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "SnapTest's Nightwatch v3 generator",
   "main": "index.js",
   "scripts": {
@@ -20,15 +20,15 @@
   },
   "homepage": "https://github.com/snaptest/nightwatch-v3-generator#readme",
   "dependencies": {
-    "deep-clone": "^3.0.3",
-    "ejs": "^3.1.8",
-    "fs-extra": "3.0.1",
-    "indent-string": "^4.0.0",
-    "js-beautify": "1.6.12",
+    "deep-clone": "^4.0.0",
+    "ejs": "^3.1.10",
+    "fs-extra": "11.3.0",
+    "indent-string": "^5.0.0",
+    "js-beautify": "1.15.4",
     "lodash": "^4.17.21",
-    "mkdirp": "^0.5.6",
-    "sanitize-filename": "1.6.1",
+    "mkdirp": "^3.0.1",
+    "sanitize-filename": "1.6.3",
     "url-parse": "^1.5.10",
-    "varname": "2.0.3"
+    "varname": "7.1.0"
   }
 }

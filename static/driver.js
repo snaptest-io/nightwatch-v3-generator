@@ -145,7 +145,7 @@ module.exports.bindDriver = function(browser) {
       ...(selector && {selector})
     });
 
-    browser.assert.ok(true, description ? `${description} ( ${techDescription} )` : techDescription);
+    browser.verify.ok(true, description ? `${description} ( ${techDescription} )` : techDescription);
 
   }
 
@@ -166,9 +166,9 @@ module.exports.bindDriver = function(browser) {
     // check for being in a try context:
     if (!optional && browser.tryContextStack.length > 0) {
       browser.tryContextStack[browser.tryContextStack.length - 1].error = true;
-      browser.assert.ok(true, description ? `${description} ${techDescription} - ${error}` : `${techDescription} - ${error}`);
+      browser.verify.ok(true, description ? `${description} ${techDescription} - ${error}` : `${techDescription} - ${error}`);
     } else {
-      browser.assert.ok(optional ? true : false, description ? `${description} ${techDescription} - ${error}` : `${techDescription} - ${error}`);
+      browser.verify.ok(optional ? true : false, description ? `${description} ${techDescription} - ${error}` : `${techDescription} - ${error}`);
     }
 
   }
